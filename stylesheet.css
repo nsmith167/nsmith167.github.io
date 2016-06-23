@@ -195,8 +195,8 @@ h3 {
   border-bottom-color: #ffffff;
 }
 
-.right{
-  width: auto;
+.about-image{
+  width: 320px;
   height: auto;
   float: right;
   margin: 20px;
