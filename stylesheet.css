@@ -96,6 +96,7 @@ h3 {
   padding: 5px 10px 5px 10px;
   max-width: 400px;
   width: 40%;
+  min-width: 310px;
   height: auto;
   background-color: rgba(153,156,159,0.9);
   box-shadow: 2px 2px 7px #444444;
