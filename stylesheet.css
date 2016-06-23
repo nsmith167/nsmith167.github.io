@@ -194,3 +194,14 @@ h3 {
   border-bottom-width: 2px;
   border-bottom-color: #ffffff;
 }
+
+.right{
+  width: auto;
+  height: auto;
+  float: right;
+  margin: 20px;
+}
+
+.about {
+  font-weight: 250;
+}
