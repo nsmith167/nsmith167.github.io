@@ -53,7 +53,7 @@ h3 {
   margin: 0;
   padding: 0;
   width: auto;
-  min-width: 640px;
+  min-width: 320px;
 }
 
 #navigation li a {
@@ -83,7 +83,7 @@ h3 {
   padding: 250px 5px 0px 5px;
   width: 75%;
   max-width: 1090px;
-  min-width: 640px;
+  min-width: 320px;
   height: 540px;
   background-size: cover;
   background-image: url("res/img/front.jpg");
@@ -168,7 +168,7 @@ h3 {
   margin: 0;
   padding: 0;
   width: auto;
-  min-width: 640px;
+  min-width: 320px;
 }
 
 #top-nav li a {
