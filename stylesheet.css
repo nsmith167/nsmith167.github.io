@@ -16,10 +16,13 @@ h1 {
 }
 
 h2 {
+    font-size: 36px;
     font-weight: 400;
+    margin: 20px 0px 50px 0px;
 }
 
 h3 {
+  text-align: center;
   margin: 0;
   padding: 0;
   font-size: 32px;
@@ -137,9 +140,6 @@ h3 {
   height: auto;
   padding: 0;
   margin: auto;
-  color: #111111;
-  font-size: 20px;
-  font-weight: 400;
 }
 
 #footer {
@@ -202,6 +202,33 @@ h3 {
 
 .about {
   padding: 10px;
-  font-weight: 250;
+  font-weight: 400;
   text-align: left;
+  font-size: 20px;
+}
+
+#music-item {
+  width: 100%;
+  height: auto;
+  margin: 50px 10px 0px 10px;
+}
+
+#music-item h1 {
+  text-align: left;
+  font-size: 40px;
+  margin: 0px 0px 10px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+#music-item h2 {
+  margin: 0px 0px 20px 0px;
+  padding: 0 auto;
+  font-weight: 300;
+}
+
+#music-item p {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0px 0px 20px 0px;
+  padding: 0 auto;
 }
