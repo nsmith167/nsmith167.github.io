@@ -85,12 +85,12 @@ h3 {
 #homecover {
   margin: 0 auto;
   padding: 250px 5px 0px 5px;
-  width: 75%;
-  max-width: 1090px;
+  width: 100%;
+  /*max-width: 1090px;*/
   min-width: 320px;
   height: 540px;
   background-size: cover;
-  background-image: url("res/img/front.jpg");
+  background-image: url("res/img/focused_wood.jpg");
   border-radius: 2px;
 }
 
