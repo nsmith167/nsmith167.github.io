@@ -5,7 +5,7 @@ body {
   padding: 0;
   font-family: 'Forum', cursive;
 }
-
+/*used for page titles*/
 h1 {
   text-align: center;
   margin: auto;
@@ -29,25 +29,25 @@ h3 {
   font-size: 32px;
   font-weight: 400;
 }
-
+/*defines some general characteristics of page content*/
 #page-wrap {
   text-align: left;
   width: 1100px;
   margin: 0 auto;
 }
 
+/*#navigation defines the characteristics of the navigation bar for the home page*/
 #navigation {
-  text-align: center;
-  width: auto;
-  min-width: 320px;
-  height: auto;
+  text-align: center; /*Content is all centered*/
+  width: auto; /*Allow host to determine*/
+  min-width: 320px; /*Prevents the navigation bar from being any smaller than an iPhone screen*/
+  height: auto; /*Allow host to determine*/
   position: relative;
   background-color: #666666;
 }
 
-
 #navigation ul {
-  list-style: none;
+  list-style: none; /*No marking in front of each list item*/
   margin: auto;
   padding: 0;
   display: block;
@@ -69,24 +69,24 @@ h3 {
   font-size: 20px;
   position: relative;
 }
-
+/*Puts a white line under an item if user hovers over it*/
 #navigation li a:hover {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #ffffff;
 }
-
+/*Marks current page with white line under corresponding nav item*/
 #navigation .active {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #ffffff;
 }
 
+/*Image background on home page*/
 #homecover {
   margin: 0 auto;
   padding: 250px 5px 0px 5px;
   width: 100%;
-  /*max-width: 1090px;*/
   min-width: 320px;
   height: 540px;
   background-size: cover;
@@ -94,6 +94,7 @@ h3 {
   border-radius: 2px;
 }
 
+/*Text box over home cover*/
 #cover-content {
   text-align: left;
   margin: 0 auto;
@@ -115,6 +116,7 @@ h3 {
 
 }
 
+/*Formats the link boxes on the home page as a list*/
 #home-content {
   width: 100%;
   min-width: 320px;
@@ -160,6 +162,7 @@ h3 {
   font-size: 20px;
 }
 
+/*General definition for how the main content on a page should be formatted*/
 #page-content {
   max-width: 1100px;
   height: auto;
@@ -167,6 +170,7 @@ h3 {
   margin: auto;
 }
 
+/*General format for a page footer*/
 #footer {
     height: 40px;
     background-color: #666666;
@@ -177,6 +181,7 @@ h3 {
     padding: 15px 20px 20px 20px;
 }
 
+/*Defines a navigation bar that sits out of the way at the top left of the page*/
 #top-nav {
   text-align: left;
   width: auto;
@@ -223,6 +228,7 @@ h3 {
   border-bottom-color: #ffffff;
 }
 
+/*Defines how to format the image on the "about" page*/
 .about-image{
   width: 300px;
   height: auto;
@@ -230,6 +236,7 @@ h3 {
   margin: 10px;
 }
 
+/*Defines content on the "about" page*/
 .about {
   padding: 20px;
   font-weight: 400;
@@ -237,6 +244,7 @@ h3 {
   font-size: 20px;
 }
 
+/*This defines the structure of the items that appear in my "music" and "projects" pages*/
 #portfolio-item {
   width: 100%;
   height: auto;
