@@ -3,59 +3,50 @@
 <head>
   <title>Nathan Smith | Projects</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="stylesheet.css" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Forum' rel='stylesheet' type='text/css'>
+  <link href="semantic.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <!--Navigation bar out of the way in the top left of page-->
-  <div id="top-nav">
-    <ul>
-      <li><a href="index.html"><span>About</span></a></li>
-      <li><a href="http://www.clutteredm1nd.wordpress.com"><span>Blog</span></a></li>
-      <li><a href="music.html"><span>Music</span></a></li>
-      <li><a href="projects.html" class="active"><span>Projects</span></a></li>
-    </ul>
+  <div class="ui huge menu">
+    <div class = "ui container">
+      <div class = "header item">Nathan Smith</div>
+      <a href="index.html" class= "item">About</a>
+      <a href="http://www.clutteredm1nd.wordpress.com" class = "item">Blog</a>
+      <a href="music.html" class = "item">Music</a>
+      <a href="projects.html" class = "active item">Projects</a>
+    </div>
   </div>
-  <h1>My Projects</h1>
   <!--Main content for this page-->
-  <div id="page-content">
-    <h3>Stay updated on whatever projects I might be working on</h3>
+  <div class="ui text container">
+    <h1 class = "ui center aligned header">My Projects</h1>
     <!--A block of content about a project I've worked on-->
-    <div id = "portfolio-item">
-      <h1>Snake Game</h1>
-      <h2>Fall 2016</h2>
-      <p>
-        In the fall of 2016 I took an intermediate object-oriented design course. It was taught in
-        Java, and focused on really honing our ability to design good, object-oriented software. The
-        final project was assigned as a way of allowing us to use and showcase a few of the concepts
-        taught in the course. I worked with two other students and built a simple snake game that relies
-        heavily on Java Swing. Parts of the project use an MVC framework, and my team designed a very
-        simple way of saving data using a text file. The part of this project that I contributed to
-        the most was the actual game engine itself, while my teammates did an amazing job with the
-        score-saving system and the look and feel of the overall program. The GitHub repository width
-        all of our code can be found <a href = "https://github.com/nsmith167/FinalProject.git">here</a>.
-      </p>
-      <img src="res/img/snake_game.jpg">
-    </div>
-    <div id="portfolio-item">
-      <h1>Personal Website</h1>
-      <h2>2016</h2>
-      <p>
-        In the summer of 2016 I decided it'd be great to build my own website. After being a member of
-        Penn State's IST Web Consulting Group for a semester, web design and development had caught my
-        attention, and I figured a great way to learn more about it all would be to code a static website
-        from scratch. The result was the website that you're now viewing! Everything is built with HTML
-        and CSS, and I didn't use any external CSS libraries or HTML templates. For hosting, I found
-        that the site could be easily hosted from GitHub, so I went with that as a short-term free solution.
-        The other great benefit to this is that you can easily view my code. And I'd love feedback
-        on my code! Web development is still something I'm learning about, and I know my work is far from
-        perfect. So head over to my <a href="https://github.com/nsmith167/nsmith167.github.io">GitHub</a> account, check out my code,
-        and send me an email with any feedback you'd like to provide. It'd mean a ton!
-      </p>
-    </div>
+    <h2 class = "ui dividing header">Snake Game</h1>
+    <p>
+      In the fall of 2016 I took an intermediate object-oriented design course. It was taught in
+      Java, and focused on really honing our ability to design good, object-oriented software. The
+      final project was assigned as a way of allowing us to use and showcase a few of the concepts
+      taught in the course. I worked with two other students and built a simple snake game that relies
+      heavily on Java Swing. Parts of the project use an MVC framework, and my team designed a very
+      simple way of saving data using a text file. The part of this project that I contributed to
+      the most was the actual game engine itself, while my teammates did an amazing job with the
+      score-saving system and the look and feel of the overall program. The GitHub repository width
+      all of our code can be found <a href = "https://github.com/nsmith167/FinalProject.git">here</a>.
+    </p>
+    <img src="res/img/snake_game.jpg" class = "ui large image">
+
+    <h2 class = "ui dividing header">Personal Website</h2>
+    <p>
+      In the summer of 2016 I decided it'd be great to build my own website. After being a member of
+      Penn State's IST Web Consulting Group for a semester, web design and development had caught my
+      attention, and I figured a great way to learn more about it all would be to code a static website
+      from scratch. The result was the website that you're now viewing! Everything is built with HTML
+      and CSS, and I didn't use any external CSS libraries or HTML templates. For hosting, I found
+      that the site could be easily hosted from GitHub, so I went with that as a short-term free solution.
+      The other great benefit to this is that you can easily view my code. And I'd love feedback
+      on my code! Web development is still something I'm learning about, and I know my work is far from
+      perfect. So head over to my <a href="https://github.com/nsmith167/nsmith167.github.io">GitHub</a> account, check out my code,
+      and send me an email with any feedback you'd like to provide. It'd mean a ton!
+    </p>
   </div>
 </body>
-<footer>
-  Site built by Nathan Smith
-</footer>
 </html>
